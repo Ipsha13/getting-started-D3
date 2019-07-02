@@ -1,0 +1,34 @@
+body {
+    width: 400px;
+    margin: 20px auto;
+    font-family: monospace;
+  }
+  
+  h1 {text-transform: uppercase;}
+  
+  p {font-size: 20px;}
+  
+  .vis {background-color: #eee;}
+  
+  .vis-d3, .vis-manual, .vis-small {
+    border: 2px dashed black;
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .vis-small {
+    width: 600px;
+    height: 600px;;
+  }
+  
+  .box {
+    height: 30px;
+    width: 30px;
+    margin-top: 2px;
+    background-color: black;
+    color: white;
+  }
